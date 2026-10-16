@@ -1,2 +1,3 @@
 replicas: 8
 image: counter:latest
+      replicas: 5
