@@ -1,3 +1,7 @@
 replicas: 10
 image: counter:latest
       replicas: 5
+
+# staging override
+replicas: 3
+registry_password_env: REG_PASS

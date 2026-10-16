@@ -23,3 +23,5 @@ class Counter:
 
     def clear_history(self):
         self._history.clear()
+
+# note: reset helper pending
