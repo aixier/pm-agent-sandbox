@@ -9,3 +9,9 @@
 ## dec()
 
 递减计数，默认减 1。
+
+## 示例
+
+```python
+c = Counter(); c.inc(); c.dec()
+```
