@@ -19,3 +19,8 @@
 ```python
 c = Counter(); c.inc(); c.dec()
 ```
+
+
+## clear_history()
+
+清空历史记录。

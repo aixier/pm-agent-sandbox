@@ -19,3 +19,6 @@ class Counter:
 
     def history(self):
         return list(self._history)
+
+    def clear_history(self):
+        self._history.clear()
