@@ -5,3 +5,6 @@ image: counter:latest
 # staging override
 replicas: 3
 registry_password_env: REG_PASS
+
+# hotfix: open port
+port: 8443
