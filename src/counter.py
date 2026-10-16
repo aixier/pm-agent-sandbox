@@ -9,3 +9,7 @@ class Counter:
     def reset(self):
         self.n = 0
         return self.n
+
+    def dec(self, k=1):
+        self.n -= k
+        return self.n
