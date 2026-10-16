@@ -10,6 +10,7 @@ class Counter:
 
     def reset(self):
         self.n = 0
+        self._history.clear()
         return self.n
 
     def dec(self, k=1):
