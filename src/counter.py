@@ -17,8 +17,9 @@ class Counter:
         self.n -= k
         return self.n
 
-    def history(self):
-        return list(self._history)
+    def history(self, last=None):
+        h = list(self._history)
+        return h if last is None else h[-last:]
 
     def clear_history(self):
         self._history.clear()
