@@ -8,3 +8,6 @@ registry_password_env: REG_PASS
 
 # hotfix: open port
 port: 8443
+
+# add monitoring
+metrics_port: 9100
